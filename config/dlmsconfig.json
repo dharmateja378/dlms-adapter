@@ -1,0 +1,157 @@
+{
+  "Configuration_For": "PASS",
+  "Process": "DLMS",
+  "Slaves": [
+    {
+      "Assets":
+      [
+        {
+          "AssetType": {
+            "AssetTypeName": "",
+            "AssetTypeId": 12
+          },
+          "ReadRegisters":[
+            {
+              "name": "Energy",
+              "instance_id": "1.0.2.8.6.255",
+              "class_id": 3,
+              "attribute_id": 2,
+              "dataType": "DoubleLongUnsigned",
+              "scalar_unit":
+              {
+                "scalar_value": "",
+                "scalar_unit": ""
+              }
+            }
+            ],
+          "WriteRegisters":[
+            {
+              "name": "Energy",
+              "instance_id": "1.0.2.8.6.255",
+              "class_id": 3,
+              "attribute_id": 2,
+              "dataType": "DoubleLongUnsigned",
+              "scalar_unit":
+              {
+                "scalar_value": "",
+                "scalar_unit": ""
+              }
+            }
+          ],
+          "AssetId": "DummyAsset",
+          "AssetName": "DummyAsset"
+        }
+      ],
+      "Connection":
+      {
+        "ip": "127.0.0.1",
+        "port": 4058,
+        "password": "password",
+        "ReferencingModel": "LN",
+        "AuthenticationMechanism": "NO",
+        "EncryptionMechanism": "None"
+      }
+    },
+    {
+      "Assets":
+      [
+        {
+          "AssetType": {
+            "AssetTypeName": "",
+            "AssetTypeId": 12
+          },
+          "ReadRegisters":[
+            {
+              "name": "Energy",
+              "instance_id": "1.0.2.8.6.255",
+              "class_id": 3,
+              "attribute_id": 2,
+              "dataType": "DoubleLongUnsigned",
+              "scalar_unit":
+              {
+                "scalar_value": "",
+                "scalar_unit": ""
+              }
+            }
+          ],
+          "WriteRegisters":[
+            {
+              "name": "Energy",
+              "instance_id": "1.0.2.8.6.255",
+              "class_id": 3,
+              "attribute_id": 2,
+              "dataType": "DoubleLongUnsigned",
+              "scalar_unit":
+              {
+                "scalar_value": "",
+                "scalar_unit": ""
+              }
+            }
+          ],
+          "AssetId": "DummyAsset1",
+          "AssetName": "DummyAsset1"
+        }
+      ],
+      "Connection":
+      {
+        "ip": "127.0.0.1",
+        "port": 4059,
+        "password": "password",
+        "ReferencingModel": "LN",
+        "AuthenticationMechanism": "NO",
+        "EncryptionMechanism": "None"
+      }
+    },
+    {
+      "Assets":
+      [
+        {
+          "AssetType": {
+            "AssetTypeName": "",
+            "AssetTypeId": 12
+          },
+          "ReadRegisters":[
+            {
+              "name": "ActiveEnergy",
+              "instance_id": "1.0.1.8.0.255",
+              "class_id": 3,
+              "attribute_id": 2,
+              "dataType": "DoubleLongUnsigned",
+              "scalar_unit":
+              {
+                "scalar_value": "",
+                "scalar_unit": ""
+              }
+            }
+          ],
+          "WriteRegisters":[
+            {
+              "name": "Energy",
+              "instance_id": "1.0.2.8.6.255",
+              "class_id": 3,
+              "attribute_id": 2,
+              "dataType": "DoubleLongUnsigned",
+              "scalar_unit":
+              {
+                "scalar_value": "",
+                "scalar_unit": ""
+              }
+            }
+          ],
+          "AssetId": "DummyAsset",
+          "AssetName": "DummyAsset"
+        }
+      ],
+      "Connection":
+      {
+        "ip": "127.0.0.1",
+        "port": 4058,
+        "password": "password",
+        "ReferencingModel": "LN",
+        "AuthenticationMechanism": "NO",
+        "EncryptionMechanism": "None"
+      }
+    }
+
+  ]
+}

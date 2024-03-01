@@ -1,0 +1,19 @@
+{
+  "Configuration_For":"PASS",
+  "Process": "DLMS",
+  "Connections": {
+    "Redis": {
+      "IP": "127.0.0.1",
+      "Port": "6379",
+      "Password": "bbb"
+    },
+    "MySQL": {
+      "Host": "127.0.0.1",
+      "Port": "3306",
+      "DBUser": "root",
+      "Password": "",
+      "Database": "dlms"
+    }
+  }
+
+  }
